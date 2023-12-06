@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import UploadRespondentsComponent from './components/UploadRespondentsComponent.vue'
+import ColorPickerComponent from './components/ColorPickerComponent.vue';
 </script>
 
 <template>
@@ -11,6 +12,8 @@ import UploadRespondentsComponent from './components/UploadRespondentsComponent.
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
     <UploadRespondentsComponent />
+        <ColorPickerComponent />
+
   </div>
 </template>
 
